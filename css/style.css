@@ -1,0 +1,211 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #eee;
+
+}
+/*//////////////////////////////////////////////////////////
+Header//////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////*/
+#header-img{
+  height: 50px;
+  width: 50px;
+}
+
+
+#logo{
+  display: flex;
+  align-items: center;
+  width: 60vw;
+}
+
+#header{
+  display: flex;
+  align-items: center;
+  background-color: #fef24e;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding: 10px;
+
+
+}
+
+li{
+  list-style: none;
+
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  padding-right: 20px
+}
+
+a:hover{
+  color: blue;
+  font-size: 20px;
+}
+
+#nav-bar li{
+  display: inline-block;
+  margin: 0px 20px;
+
+
+}
+
+/*//////////////////////////////////////////////////////////
+Email//////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////*/
+
+#statement{
+  text-align: center;
+  padding-top: 120px
+
+}
+
+#form{
+  text-align: center;
+}
+
+form div{
+  padding-top: 15px;
+}
+
+#email{
+  border-color: yellow;
+  padding: 2px;
+}
+
+#submit{
+  padding: 5px;
+  background-color: yellow;
+  border-color: black;
+  cursor: pointer;
+}
+
+#submit:hover{
+  background-color: black;
+  color: white;
+
+
+}
+
+/*//////////////////////////////////////////////////////////
+Feature//////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////*/
+
+
+#features{
+  background-color: #fef24e;
+  padding: 30px 0px 30px 0px;
+  margin-top: 50px;
+
+}
+
+
+#premium-materials
+{
+  margin: 0px 100px 0 225px;
+}
+
+#fast-shipping
+{
+  margin: 50px 100px 0 225px;
+}
+
+#quality-assurance{
+  margin: 50px 100px 0 225px;
+}
+
+
+#how-it-works{
+  text-align: center;
+  margin: 100px 0px;
+}
+
+/*//////////////////////////////////////////////////////////
+Pricing//////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////*/
+
+#pricing{
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#phone{
+  border: 1px solid #000;
+  width: calc(100% / 3);
+  height: 300px;
+  text-align: center;
+  margin: 10px;
+  background: #fef24e
+}
+
+#phone div{
+  background-color: yellow;
+  text-transform: uppercase;
+
+}
+
+#phone div{
+  padding: 15px 0px;
+}
+
+#phone h2{
+  padding: 15px 0px;
+}
+
+#phone ol{
+  padding: 15px 0px;
+}
+
+#phone ol li{
+  margin: 5px;
+}
+
+#btn{
+  margin: 15px 0px;
+  padding: 15px 30px;
+  background-color: yellow;
+  border-color: black;
+  cursor: pointer;
+}
+
+#btn:hover{
+  background-color: black;
+  color: white;
+}
+
+/*//////////////////////////////////////////////////////////
+Footer//////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////*/
+
+footer{
+  margin-top: 50px;
+  text-align: right;
+  background: yellow;
+  padding: 20px 20px;
+}
+
+@media screen and (max-width: 1100px){
+  body{
+    font-size: 16px;
+  }
+
+  #logo{
+    width: 160vw;
+  }
+  #nav-bar li{
+
+    margin: 0px 100px;
+  }
+}
